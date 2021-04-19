@@ -155,7 +155,7 @@ Mat saveFinalImage(const Mat &trans, Mat &src, Size outputsize, int n, int inser
 //        return checkResult;
 //}
 
-int openConnection(string workingFolder, int RFReaderFD, int scanFD) {
+int openConnect(string workingFolder, int RFReaderFD, int scanFD) {
     if (!initFlag)
         initProgram(workingFolder);
     //打开CIS扫描设备

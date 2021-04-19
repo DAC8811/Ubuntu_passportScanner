@@ -19,7 +19,7 @@ int openConnect(std::string folder) {
     return res;
 }
 
-int closeConnection() {
+int closeConnect() {
     myUsbHandler.closeUsb();
     return 0;
 }
@@ -56,7 +56,7 @@ void *reviseThread(void *) {
 //    return 0;
 //}
 
-int getMediaStatus() {
+int getMediaStatu() {
     return myUsbHandler.mediaStatusTrue;
 }
 

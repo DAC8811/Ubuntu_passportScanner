@@ -11,6 +11,7 @@ using namespace std;
 
 #define EXPORT_FUN __attribute__((visibility("default")))
 
+
 /******************************************************/
 // 函数名   : initProgram
 // 功能描述 : 设备SDK初始化，在调用任何SDK其他接口前，必须先调用该接口进行初始化。该函数在整个进程运行期间只需要调用一次。
@@ -18,23 +19,23 @@ using namespace std;
 // 返回值   : 成功时，返回0
 //            否则参考日志输出
 /******************************************************/
-extern "C" EXPORT_FUN int initProgram(string Folder);
-extern "C" EXPORT_FUN int openConnection(string workingFolder, int RFReaderFD, int scanFD);
+EXPORT_FUN int initProgram(string Folder);
+EXPORT_FUN int openConnect(string workingFolder, int RFReaderFD, int scanFD);
 /******************************************************/
-// 函数名   :closeConnection
+// 函数名   :closeConnect
 // 功能描述 :关闭设备
 // 参数     :无
 //
 // 返回值   :0 成功； -1 失败
 //
 /******************************************************/
-extern "C" EXPORT_FUN int closeConnection();
-extern "C" EXPORT_FUN string getDeviceID();
-extern "C" EXPORT_FUN int getMediaStatus();
-extern "C" EXPORT_FUN bool setWorkingStatus(int status);//status 0:waiting 1:working
-extern "C" EXPORT_FUN bool beepBuzzer(int times);//times 响的次数，目前只支持1~3次
+EXPORT_FUN int closeConnect();
+EXPORT_FUN string getDeviceID();
+EXPORT_FUN int getMediaStatu();
+EXPORT_FUN bool setWorkingStatus(int status);//status 0:waiting 1:working
+EXPORT_FUN bool beepBuzzer(int times);//times 响的次数，目前只支持1~3次
 //extern "C" EXPORT_FUN int generateConfig();
-extern "C" EXPORT_FUN
+EXPORT_FUN
 int scanAndReadCard(int timeout);
 //extern "C" EXPORT_FUN
 //int secondScanCard(int timeout);
@@ -66,8 +67,7 @@ int scanAndReadCard(int timeout);
 //返回值   :0 护照读取成功；-1 失败
 //
 /******************************************************/
-extern "C" EXPORT_FUN
-int getData(string whitePath, string irPath, string uvPath, int authenFlag);
+EXPORT_FUN int getData(string whitePath, string irPath, string uvPath, int authenFlag);
 
 
 /******************************************************/
@@ -77,12 +77,9 @@ int getData(string whitePath, string irPath, string uvPath, int authenFlag);
 // 返回值   :Json字符串
 //
 /******************************************************/
-extern "C" EXPORT_FUN
-string getJson();
-extern "C" EXPORT_FUN
-string getEChipDG1();
-extern "C" EXPORT_FUN
-string getEChipDG11();
+EXPORT_FUN string getJson();
+EXPORT_FUN string getEChipDG1();
+EXPORT_FUN string getEChipDG11();
 /******************************************************/
 // 函数名   :getSFZImage
 // 功能描述 :获取身份证电子头像的原始数据
@@ -90,6 +87,6 @@ string getEChipDG11();
 // 返回值   :1024字节数据
 //
 /******************************************************/
-extern "C" EXPORT_FUN
-const char* getSFZImageData();
+EXPORT_FUN const char* getSFZImageData();
+EXPORT_FUN int cropFace(string srcImgPath, string faceImgPath, int cardType);
 #endif //PASSPORTREADER_GETDATA_H

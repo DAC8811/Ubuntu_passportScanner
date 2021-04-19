@@ -17,7 +17,7 @@ set(OPENJPEG_LIBRARIES "openjp2")
 set(OPENJPEG_CMAKE_DIR "lib/openjpeg-2.3")
 
 # The configuration options.
-set(OPENJPEG_BUILD_SHARED_LIBS "TRUE")
+set(OPENJPEG_BUILD_SHARED_LIBS "FALSE")
 
 # The "use" file.
 set(OPENJPEG_USE_FILE "")
@@ -28,8 +28,8 @@ if(EXISTS ${SELF_DIR}/OpenJPEGTargets.cmake)
   include(${SELF_DIR}/OpenJPEGTargets.cmake)
 
   # We find a relative path from the PKG directory to header files.
-  set(PKG_DIR "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install/lib/openjpeg-2.3")
-  set(INC_DIR "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install/include/openjpeg-2.3")
+  set(PKG_DIR "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/lib/openjpeg-2.3")
+  set(INC_DIR "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/include/openjpeg-2.3")
   file(RELATIVE_PATH PKG_TO_INC_RPATH "${PKG_DIR}" "${INC_DIR}")
 
   get_filename_component(OPENJPEG_INCLUDE_DIRS "${SELF_DIR}/${PKG_TO_INC_RPATH}" ABSOLUTE)

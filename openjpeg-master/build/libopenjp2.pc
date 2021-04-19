@@ -1,4 +1,4 @@
-prefix=/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install
+prefix=/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install
 bindir=${prefix}/bin
 mandir=${prefix}/
 docdir=${prefix}/

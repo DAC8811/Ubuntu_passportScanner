@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib
-# Build directory: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/3rdparty/zlib
+# Source directory: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib
+# Build directory: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/zlib
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

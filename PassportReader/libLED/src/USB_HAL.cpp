@@ -85,10 +85,10 @@ int CUSBHid::open(int vid, int pid) {
     }
     libusb_set_debug(NULL, LIBUSB_LOG_LEVEL_INFO);
 
-    extern int RFReader_FD;
-    libusb_wrap_sys_device(ctx,(intptr_t) RFReader_FD,&dev_handle);
+    //extern int RFReader_FD;
+    //libusb_wrap_sys_device(ctx,(intptr_t) RFReader_FD,&dev_handle);
 
-    //dev_handle = libusb_open_device_with_vid_pid(NULL, vid, pid);
+    dev_handle = libusb_open_device_with_vid_pid(NULL, vid, pid);
 
     if (dev_handle == NULL) {
         LOGD("Cannot open device\n");

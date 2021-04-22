@@ -1,111 +1,14 @@
-#use_cache "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/.cache"
-#do_unpack "ippicv_2020_lnx_intel64_20191018_general.tgz" "7421de0095c7a39162ae13a6098782f9" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz" "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/3rdparty/ippicv"
-#check_md5 "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
-#mismatch_md5 "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz" "81b41521eb1f8ca5ab7ef4573060c93a"
-#delete "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
-#cmake_download "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz"
+#use_cache "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache"
+#do_unpack "ippicv_2020_lnx_intel64_20191018_general.tgz" "7421de0095c7a39162ae13a6098782f9" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz" "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/ippicv"
+#check_md5 "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
+#mismatch_md5 "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz" "19b542dcbee368edf356b697e3a8a71e"
+#delete "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
+#cmake_download "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz"
 #try 1
-#   Trying 185.199.108.133...
-# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
-# ALPN, offering http/1.1
-# Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
-# successfully set certificate verify locations:
-#   CAfile: /etc/ssl/certs/ca-certificates.crt
-#   CApath: /etc/ssl/certs
-# TLSv1.2 (OUT), TLS header, Certificate Status (22):
-# [5 bytes data]
-# TLSv1.2 (OUT), TLS handshake, Client hello (1):
-# [512 bytes data]
-# [5 bytes data]
-# TLSv1.2 (IN), TLS handshake, Server hello (2):
-# [108 bytes data]
-# [5 bytes data]
-# TLSv1.2 (IN), TLS handshake, Certificate (11):
-# [3062 bytes data]
-# [5 bytes data]
-# TLSv1.2 (IN), TLS handshake, Server key exchange (12):
-# [333 bytes data]
-# [5 bytes data]
-# TLSv1.2 (IN), TLS handshake, Server finished (14):
-# [4 bytes data]
-# [5 bytes data]
-# TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
-# [70 bytes data]
-# [5 bytes data]
-# TLSv1.2 (OUT), TLS change cipher, Client hello (1):
-# [1 bytes data]
-# [5 bytes data]
-# TLSv1.2 (OUT), TLS handshake, Finished (20):
-# [16 bytes data]
-# [5 bytes data]
-# TLSv1.2 (IN), TLS change cipher, Client hello (1):
-# [1 bytes data]
-# [5 bytes data]
-# TLSv1.2 (IN), TLS handshake, Finished (20):
-# [16 bytes data]
-# SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
-# ALPN, server accepted to use http/1.1
-# Server certificate:
-# 	 subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=www.github.com
-# 	 start date: May  6 00:00:00 2020 GMT
-# 	 expire date: Apr 14 12:00:00 2022 GMT
-# 	 subjectAltName: raw.githubusercontent.com matched
-# 	 issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
-# 	 SSL certificate verify ok.
-# [5 bytes data]
-# GET /opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz HTTP/1.1
-# Host: raw.githubusercontent.com
-# User-Agent: curl/7.47.0
-# Accept: */*
-# 
-# [5 bytes data]
-# HTTP/1.1 200 OK
-# Connection: keep-alive
-# Content-Length: 32502046
-# Cache-Control: max-age=300
-# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-# Content-Type: application/octet-stream
-# ETag: "6b2c122399df687f378abe1b8426979e84050e1107e388a968427b90f5d83930"
-# Strict-Transport-Security: max-age=31536000
-# X-Content-Type-Options: nosniff
-# X-Frame-Options: deny
-# X-XSS-Protection: 1; mode=block
-# X-GitHub-Request-Id: A18C:7890:342559:3E1CBF:60768883
-# Accept-Ranges: bytes
-# Date: Wed, 14 Apr 2021 07:56:47 GMT
-# Via: 1.1 varnish
-# X-Served-By: cache-bur17582-BUR
-# X-Cache: HIT
-# X-Cache-Hits: 0
-# X-Timer: S1618387007.208798,VS0,VE1
-# Vary: Authorization,Accept-Encoding
-# Access-Control-Allow-Origin: *
-# X-Fastly-Request-ID: 54d4fcf0d8de2ca0558e454d2a3492ef5400f67d
-# Expires: Wed, 14 Apr 2021 08:01:47 GMT
-# Source-Age: 151
-# 
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# [1371 bytes data]
-# [5 bytes data]
-# Operation too slow. Less than 1 bytes/sec transferred the last 60 seconds
-# Closing connection 0
-# [5 bytes data]
-# TLSv1.2 (OUT), TLS alert, Client hello (1):
-# [2 bytes data]
-# 
-
-#match_hash_in_cmake_cache "OCV_DOWNLOAD_ADE_HASH_3rdparty_ade_v0_1_1f_zip"
+#check_md5 "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
+#mkdir "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/ippicv"
+#unpack "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/ippicv" "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
+#do_unpack "v0.1.1f.zip" "b624b995ec9c439cbc2e9e6ee940d3a2" "https://github.com/opencv/ade/archive/v0.1.1f.zip" "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/ade"
+#check_md5 "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#mkdir "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/ade"
+#unpack "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/ade" "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"

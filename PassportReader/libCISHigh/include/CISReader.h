@@ -12,7 +12,7 @@
 
 int openConnect(std::string folder);
 
-void checkRevision(std::string workFolder, std::string deviceID);
+bool checkRevision(std::string workFolder, std::string deviceID);
 
 void *reviseThread(void *);
 

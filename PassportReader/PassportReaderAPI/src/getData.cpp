@@ -55,7 +55,7 @@ struct timeval start, stop;
 
 string mrzCode, DG1, DG11, IDNum, SFZinfo, SFZinfoUTF16, SFZImage, jsonInfo;
 bool back;
-int RFReader_FD, ScanReader_FD;
+//int RFReader_FD, ScanReader_FD;
 //-1 - error
 // 0 - unknow
 // 1 - sfz
@@ -159,16 +159,18 @@ int openConnect(string workingFolder, int RFReaderFD, int scanFD) {
     if (!initFlag)
         initProgram(workingFolder);
     //打开CIS扫描设备
-    RFReader_FD = RFReaderFD;
-    ScanReader_FD = scanFD;
+    //RFReader_FD = RFReaderFD;
+    //ScanReader_FD = scanFD;
     int re = openConnect(workingFolder);
 //    int re = openConnect(workingFolder, -1);
     if (!initFlag || re != 0) {
         return -1;
     }
-    checkRevision(workingFolder, getDeviceID());
+    bool needRevision = checkRevision(workingFolder, getDeviceID());
 //    bool auth = AuthDev();
 //    if (auth)
+    if(needRevision)
+        usleep(10*1000*1000);
     return 0;
     return -1;
 }

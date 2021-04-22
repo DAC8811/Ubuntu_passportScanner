@@ -1,4 +1,4 @@
-#define CV_CPU_SIMD_FILENAME "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/dnn/src/layers/layers_common.simd.hpp"
+#define CV_CPU_SIMD_FILENAME "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/dnn/src/layers/layers_common.simd.hpp"
 #define CV_CPU_DISPATCH_MODE AVX
 #include "opencv2/core/private/cv_cpu_include_simd_declarations.hpp"
 

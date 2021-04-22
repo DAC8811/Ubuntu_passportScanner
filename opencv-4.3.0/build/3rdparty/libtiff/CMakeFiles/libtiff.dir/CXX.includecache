@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tif_dir.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tif_dir.h
 tiff.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiff.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiff.h
 tiffio.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffio.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffio.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tif_stream.cxx
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tif_stream.cxx
 tiffiop.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffiop.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffiop.h
 iostream
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiff.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiff.h
 tiffconf.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffconf.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffconf.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffio.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffio.h
 tiff.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiff.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiff.h
 tiffvers.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffvers.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffvers.h
 windows.h
 -
 stdio.h
@@ -34,9 +34,9 @@ stdio.h
 stdarg.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffiop.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffiop.h
 tif_config.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tif_config.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tif_config.h
 fcntl.h
 -
 sys/types.h
@@ -48,11 +48,11 @@ assert.h
 search.h
 -
 tiffio.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffio.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffio.h
 tif_dir.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tif_dir.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tif_dir.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/libtiff/tiffvers.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/libtiff/tiffvers.h
 
 3rdparty/libtiff/tif_config.h
 

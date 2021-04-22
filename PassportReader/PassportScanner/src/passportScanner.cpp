@@ -147,7 +147,9 @@ std::string scanAndReadCardInfo(int timeout,int paramInt, string paramString){
     string jsonInfo = getJson();
     LOG(INFO) << "jsonInfo:" + jsonInfo;
 
-    Json::Value resjson(jsonInfo);
+    Json::Reader reader;
+    Json::Value resjson;
+    reader.parse(jsonInfo,resjson);
     if (!resjson["IDIssuingOrg"].isNull()) {
         string IDIssuingOrg = resjson["IDIssuingOrg"].asString();
         resjson["IDIssuingOrg"] = getTwoNationCodes(IDIssuingOrg);

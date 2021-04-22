@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/include/opencv2/photo.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/include/opencv2/photo.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/include/opencv2/photo/cuda.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/include/opencv2/photo/cuda.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/include/opencv2/photo/photo.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/include/opencv2/photo/legacy/constants_c.h",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/include/opencv2/photo/legacy/constants_c.h",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/include/opencv2/photo/photo.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/denoising.cuda.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/align.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/npr.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/calibrate.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/align.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/contrast_preserve.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/tonemap.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/denoise_tvl1.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/merge.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/denoising.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/denoise_tvl1.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/denoising.cuda.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/contrast_preserve.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/hdr_common.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/seamless_cloning_impl.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/inpaint.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/calibrate.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/merge.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/inpaint.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/npr.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/denoising.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/seamless_cloning.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/seamless_cloning.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/seamless_cloning_impl.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/hdr_common.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/tonemap.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/opencl/nlmeans.cl",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/opencl/nlmeans.cl",
 			"labels" : 
 			[
 				"Main",
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/modules/photo/opencl_kernels_photo.cpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/modules/photo/opencl_kernels_photo.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/modules/photo/opencl_kernels_photo.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/modules/photo/opencl_kernels_photo.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -182,7 +182,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/fast_nlmeans_denoising_invoker_commons.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/arrays.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -191,7 +191,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/arrays.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/contrast_preserve.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -200,7 +200,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/fast_nlmeans_denoising_opencl.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/fast_nlmeans_denoising_invoker.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/fast_nlmeans_denoising_invoker.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/fast_nlmeans_denoising_invoker_commons.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/precomp.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/fast_nlmeans_denoising_opencl.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -227,7 +227,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/fast_nlmeans_multi_denoising_invoker.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/fast_nlmeans_multi_denoising_invoker.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/contrast_preserve.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/hdr_common.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -245,7 +245,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/seamless_cloning.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/npr.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/npr.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/precomp.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -263,7 +263,7 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/photo/src/hdr_common.hpp",
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/photo/src/seamless_cloning.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -272,13 +272,13 @@
 			]
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/cvconfig.h"
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/cvconfig.h"
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/opencv2/opencv_modules.hpp"
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/opencv2/opencv_modules.hpp"
 		},
 		{
-			"file" : "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/modules/photo/opencl_kernels_photo.cpp.rule"
+			"file" : "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/modules/photo/opencl_kernels_photo.cpp.rule"
 		}
 	],
 	"target" : 

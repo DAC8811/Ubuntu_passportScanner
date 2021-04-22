@@ -4,15 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/quirc/src/decode.c" "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o"
-  "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/quirc/src/quirc.c" "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o"
-  "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/quirc/src/version_db.c" "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o"
+  "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/quirc/src/decode.c" "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o"
+  "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/quirc/src/quirc.c" "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/quirc/CMakeFiles/quirc.dir/src/quirc.c.o"
+  "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/quirc/src/version_db.c" "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/3rdparty/quirc/CMakeFiles/quirc.dir/src/version_db.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../3rdparty/quirc/include"
+  "3rdparty/ippicv/ippicv_lnx/icv/include"
+  "3rdparty/ippicv/ippicv_lnx/iw/include"
   "."
   )
 

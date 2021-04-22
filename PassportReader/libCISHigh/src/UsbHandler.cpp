@@ -63,9 +63,9 @@ void *UsbHandler::USBDataListener(void *thisPointer) {
     long long duration = 0;
     p->clearUSBSerial();
     while (true) {
-//        LOGI("begin wait usb data");
+       LOGI("begin wait usb data");
         int ret = p->usbDevice.bulk_read(data, 512, 0);
-//        LOGI("received usb data, ret = %d", ret);
+       LOGI("received usb data, ret = %d", ret);
         if (ret <= 0) {
             if (ret == LIBUSB_ERROR_NO_DEVICE || ret == LIBUSB_ERROR_OTHER) {
                 LOGE("USBDataListener exit");

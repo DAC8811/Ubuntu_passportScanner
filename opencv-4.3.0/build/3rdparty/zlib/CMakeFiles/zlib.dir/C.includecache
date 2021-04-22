@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,41 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/adler32.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/adler32.c
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/compress.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/compress.c
 zlib.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zlib.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zlib.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/crc32.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/crc32.c
 stdio.h
 -
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 crc32.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/crc32.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/crc32.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/crc32.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/crc32.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/deflate.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/deflate.c
 deflate.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/deflate.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/deflate.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/deflate.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/deflate.h
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzclose.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzclose.c
 gzguts.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzguts.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzguts.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzguts.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzguts.h
 stdio.h
 -
 zlib.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zlib.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zlib.h
 string.h
 -
 stdlib.h
@@ -58,87 +58,87 @@ windows.h
 errno.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzlib.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzlib.c
 gzguts.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzguts.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzguts.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzread.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzread.c
 gzguts.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzguts.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzguts.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzwrite.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzwrite.c
 gzguts.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzguts.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzguts.h
 stdarg.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/infback.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/infback.c
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 inftrees.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inftrees.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inftrees.h
 inflate.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inflate.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inflate.h
 inffast.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffast.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffast.h
 inffixed.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffixed.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffixed.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffast.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffast.c
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 inftrees.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inftrees.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inftrees.h
 inflate.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inflate.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inflate.h
 inffast.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffast.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffast.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffast.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffast.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffixed.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffixed.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inflate.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inflate.c
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 inftrees.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inftrees.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inftrees.h
 inflate.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inflate.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inflate.h
 inffast.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffast.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffast.h
 inffixed.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inffixed.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inffixed.h
 stdio.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inflate.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inflate.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inftrees.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inftrees.c
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 inftrees.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inftrees.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inftrees.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/inftrees.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/inftrees.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/trees.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/trees.c
 deflate.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/deflate.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/deflate.h
 ctype.h
 -
 trees.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/trees.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/trees.h
 stdio.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/trees.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/trees.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/uncompr.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/uncompr.c
 zlib.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zlib.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zlib.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zconf.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zconf.h
 stddef.h
 -
 windows.h
@@ -156,21 +156,21 @@ unistd.h
 unixio.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zlib.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zlib.h
 zconf.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zconf.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zconf.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.c
 zutil.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 gzguts.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/gzguts.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/gzguts.h
 stdlib.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zutil.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zutil.h
 zlib.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/zlib/zlib.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/zlib/zlib.h
 stddef.h
 -
 string.h

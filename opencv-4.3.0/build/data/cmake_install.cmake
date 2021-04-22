@@ -1,8 +1,8 @@
-# Install script for directory: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data
+# Install script for directory: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,35 +32,45 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libs")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "TRUE")
+endif()
+
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv4/haarcascades" TYPE FILE FILES
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_fullbody.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_eye.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_upperbody.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_alt2.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_default.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_russian_plate_number.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_frontalcatface.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_smile.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_profileface.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_frontalcatface_extended.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_lefteye_2splits.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_righteye_2splits.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_lowerbody.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_alt.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_eye.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_frontalcatface.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_frontalcatface_extended.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_alt.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_alt2.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_frontalface_default.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_fullbody.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_lefteye_2splits.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_lowerbody.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_profileface.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_righteye_2splits.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_russian_plate_number.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_smile.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/haarcascades/haarcascade_upperbody.xml"
     )
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libs")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibsx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/opencv4/lbpcascades" TYPE FILE FILES
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/lbpcascades/lbpcascade_frontalcatface.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/lbpcascades/lbpcascade_silverware.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/lbpcascades/lbpcascade_frontalface_improved.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/lbpcascades/lbpcascade_profileface.xml"
-    "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/data/lbpcascades/lbpcascade_frontalface.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/lbpcascades/lbpcascade_frontalcatface.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/lbpcascades/lbpcascade_frontalface.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/lbpcascades/lbpcascade_frontalface_improved.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/lbpcascades/lbpcascade_profileface.xml"
+    "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/data/lbpcascades/lbpcascade_silverware.xml"
     )
 endif()
 

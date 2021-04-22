@@ -1,6 +1,6 @@
 #本文件需要放置在opencv-4.3.0/build目录下执行
-cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/toolchain_ubuntu.cmake \
--DCMAKE_INSTALL_PREFIX=/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install/ \
+cmake .. -DCMAKE_TOOLCHAIN_FILE=/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/toolchain_ubuntu.cmake \
+-DCMAKE_INSTALL_PREFIX=/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/ \
 -DBUILD_TESTS=FALSE -DBUILD_PERF_TESTS=FALSE -DBUILD_ZLIB=TRUE \
 -DCMAKE_BUILD_TYPE=RELEASE -DBUILD_SHARED_LIBS=FALSE \
 -DWITH_WEBP=FALSE -DBUILD_WEBP=FALSE -DWITH_PNG=FALSE \

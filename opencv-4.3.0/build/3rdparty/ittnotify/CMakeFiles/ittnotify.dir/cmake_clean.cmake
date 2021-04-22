@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../lib/libittnotify.a"
+  "../lib/libittnotify.pdb"
   "CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o"
   "CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o"
-  "../lib/libittnotify.pdb"
-  "../lib/libittnotify.a"
 )
 
 # Per-language clean rules from dependency scanning.

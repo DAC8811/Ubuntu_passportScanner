@@ -35,6 +35,26 @@ set_target_properties(libtiff PROPERTIES
 list(APPEND _IMPORT_CHECK_TARGETS libtiff )
 list(APPEND _IMPORT_CHECK_FILES_FOR_libtiff "${_IMPORT_PREFIX}/lib/opencv4/3rdparty/liblibtiff.a" )
 
+# Import target "libjasper" for configuration "RELEASE"
+set_property(TARGET libjasper APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(libjasper PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/opencv4/3rdparty/liblibjasper.a"
+  )
+
+list(APPEND _IMPORT_CHECK_TARGETS libjasper )
+list(APPEND _IMPORT_CHECK_FILES_FOR_libjasper "${_IMPORT_PREFIX}/lib/opencv4/3rdparty/liblibjasper.a" )
+
+# Import target "ippiw" for configuration "RELEASE"
+set_property(TARGET ippiw APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(ippiw PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/opencv4/3rdparty/libippiw.a"
+  )
+
+list(APPEND _IMPORT_CHECK_TARGETS ippiw )
+list(APPEND _IMPORT_CHECK_FILES_FOR_ippiw "${_IMPORT_PREFIX}/lib/opencv4/3rdparty/libippiw.a" )
+
 # Import target "libprotobuf" for configuration "RELEASE"
 set_property(TARGET libprotobuf APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libprotobuf PROPERTIES

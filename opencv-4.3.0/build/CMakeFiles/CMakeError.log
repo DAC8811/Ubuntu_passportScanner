@@ -1,25 +1,50 @@
 Build output check failed:
+    Regex: 'argument .* is not valid'
+    Output line: 'cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C'
+Compilation failed:
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6b7ec/fast && /usr/bin/make  -f CMakeFiles/cmTC_6b7ec.dir/build.make CMakeFiles/cmTC_6b7ec.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6b7ec.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor -o CMakeFiles/cmTC_6b7ec.dir/src.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_6b7ec
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b7ec.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_6b7ec.dir/src.c.o -o cmTC_6b7ec 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
+
+===== END =====
+
+Build output check failed:
     Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
     Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_56c9e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_56c9e.dir/build.make CMakeFiles/cmTC_56c9e.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_56c9e.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_56c9e.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_1e50d/fast && /usr/bin/make  -f CMakeFiles/cmTC_1e50d.dir/build.make CMakeFiles/cmTC_1e50d.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1e50d.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_1e50d.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-Linking CXX executable cmTC_56c9e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56c9e.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_56c9e.dir/src.cxx.o  -o cmTC_56c9e 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_1e50d
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e50d.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_1e50d.dir/src.cxx.o -o cmTC_1e50d 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -27,24 +52,24 @@ Build output check failed:
     Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
     Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc098/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fc098.dir/build.make CMakeFiles/cmTC_fc098.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fc098.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_fc098.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_a1a10/fast && /usr/bin/make  -f CMakeFiles/cmTC_a1a10.dir/build.make CMakeFiles/cmTC_a1a10.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a1a10.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_a1a10.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-Linking CXX executable cmTC_fc098
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc098.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_fc098.dir/src.cxx.o  -o cmTC_fc098 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_a1a10
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a10.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_a1a10.dir/src.cxx.o -o cmTC_a1a10 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -52,24 +77,24 @@ Build output check failed:
     Regex: 'command[- ]line option .* is valid for .* but not for C'
     Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22cdf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22cdf.dir/build.make CMakeFiles/cmTC_22cdf.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22cdf.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_22cdf.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make cmTC_492aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_492aa.dir/build.make CMakeFiles/cmTC_492aa.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_492aa.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_492aa.dir/src.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-Linking C executable cmTC_22cdf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22cdf.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_22cdf.dir/src.c.o  -o cmTC_22cdf 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_492aa
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_492aa.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_492aa.dir/src.c.o -o cmTC_492aa 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -77,24 +102,24 @@ Build output check failed:
     Regex: 'command[- ]line option .* is valid for .* but not for C'
     Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d7b4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d7b4.dir/build.make CMakeFiles/cmTC_8d7b4.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d7b4.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wsuggest-override -o CMakeFiles/cmTC_8d7b4.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make cmTC_52cd5/fast && /usr/bin/make  -f CMakeFiles/cmTC_52cd5.dir/build.make CMakeFiles/cmTC_52cd5.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_52cd5.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override -o CMakeFiles/cmTC_52cd5.dir/src.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-Linking C executable cmTC_8d7b4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d7b4.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_8d7b4.dir/src.c.o  -o cmTC_8d7b4 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_52cd5
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52cd5.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_52cd5.dir/src.c.o -o cmTC_52cd5 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -102,24 +127,24 @@ Build output check failed:
     Regex: 'command[- ]line option .* is valid for .* but not for C'
     Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_acb7d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_acb7d.dir/build.make CMakeFiles/cmTC_acb7d.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_acb7d.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_acb7d.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make cmTC_4b817/fast && /usr/bin/make  -f CMakeFiles/cmTC_4b817.dir/build.make CMakeFiles/cmTC_4b817.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4b817.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_4b817.dir/src.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-Linking C executable cmTC_acb7d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acb7d.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_acb7d.dir/src.c.o  -o cmTC_acb7d 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_4b817
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b817.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_4b817.dir/src.c.o -o cmTC_4b817 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -127,24 +152,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4efd7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4efd7.dir/build.make CMakeFiles/cmTC_4efd7.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4efd7.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_4efd7.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
+Run Build Command(s):/usr/bin/make cmTC_1359b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1359b.dir/build.make CMakeFiles/cmTC_1359b.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_1359b.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_1359b.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
 cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
-Linking CXX executable cmTC_4efd7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4efd7.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_4efd7.dir/src.cxx.o  -o cmTC_4efd7 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_1359b
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1359b.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_1359b.dir/src.cxx.o -o cmTC_1359b 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -152,24 +177,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fbba4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fbba4.dir/build.make CMakeFiles/cmTC_fbba4.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fbba4.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_fbba4.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
+Run Build Command(s):/usr/bin/make cmTC_01a9d/fast && /usr/bin/make  -f CMakeFiles/cmTC_01a9d.dir/build.make CMakeFiles/cmTC_01a9d.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_01a9d.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_01a9d.dir/src.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
 cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
-Linking C executable cmTC_fbba4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbba4.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_fbba4.dir/src.c.o  -o cmTC_fbba4 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_01a9d
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a9d.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_01a9d.dir/src.c.o -o cmTC_01a9d 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -177,87 +202,46 @@ Build output check failed:
     Regex: 'command[- ]line option .* is valid for .* but not for C'
     Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6ba5a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6ba5a.dir/build.make CMakeFiles/cmTC_6ba5a.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6ba5a.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_6ba5a.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make cmTC_853a2/fast && /usr/bin/make  -f CMakeFiles/cmTC_853a2.dir/build.make CMakeFiles/cmTC_853a2.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_853a2.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_853a2.dir/src.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-Linking C executable cmTC_6ba5a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ba5a.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_6ba5a.dir/src.c.o  -o cmTC_6ba5a 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_853a2
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_853a2.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections  -O3 -DNDEBUG CMakeFiles/cmTC_853a2.dir/src.c.o -o cmTC_853a2 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
-Determining if the system is big endian passed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_d7494/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d7494.dir/build.make CMakeFiles/cmTC_d7494.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d7494.dir/TestEndianess.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d7494.dir/TestEndianess.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_d7494
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7494.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d7494.dir/TestEndianess.c.o  -o cmTC_d7494 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-
-TestEndianess.c:
-/* A 16 bit integer is required. */
-typedef unsigned short cmakeint16;
-
-/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
-   On a big endian machine the characters will be exchanged pairwise. */
-const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
-
-/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
-   On a little endian machine the characters will be exchanged pairwise. */
-const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
-
-#ifdef __CLASSIC_C__
-int main(argc, argv) int argc; char *argv[];
-#else
-int main(int argc, char *argv[])
-#endif
-{
-  int require = 0;
-  require += info_little[argc];
-  require += info_big[argc];
-  (void)argv;
-  return require;
-}
-
-
 Determining size of off64_t failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7dbe8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7dbe8.dir/build.make CMakeFiles/cmTC_7dbe8.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7dbe8.dir/OFF64_T.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7dbe8.dir/OFF64_T.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: error: ‘off64_t’ undeclared here (not in a function)
- #define SIZE (sizeof(off64_t))
-                      ^
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:19:12: note: in expansion of macro ‘SIZE’
-   ('0' + ((SIZE / 10000)%10)),
-            ^
-CMakeFiles/cmTC_7dbe8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7dbe8.dir/OFF64_T.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_7dbe8.dir/OFF64_T.c.o] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7dbe8/fast' failed
-make: *** [cmTC_7dbe8/fast] Error 2
+Run Build Command(s):/usr/bin/make cmTC_e14cd/fast && /usr/bin/make  -f CMakeFiles/cmTC_e14cd.dir/build.make CMakeFiles/cmTC_e14cd.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e14cd.dir/OFF64_T.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e14cd.dir/OFF64_T.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: error: ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+   27 | #define SIZE (sizeof(off64_t))
+      |                      ^~~~~~~
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_e14cd.dir/build.make:85：CMakeFiles/cmTC_e14cd.dir/OFF64_T.c.o] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_e14cd/fast] 错误 2
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -268,14 +252,24 @@ make: *** [cmTC_7dbe8/fast] Error 2
 # define KEY '_','_','i','3','8','6'
 #elif defined(__x86_64)
 # define KEY '_','_','x','8','6','_','6','4'
-#elif defined(__ppc__)
-# define KEY '_','_','p','p','c','_','_'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
 #elif defined(__ppc64__)
 # define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
 #endif
 
 #define SIZE (sizeof(off64_t))
-char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
   ('0' + ((SIZE / 10000)%10)),
   ('0' + ((SIZE / 1000)%10)),
   ('0' + ((SIZE / 100)%10)),
@@ -304,115 +298,63 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -Wno-shorten-64-to-32'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a6cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a6cf.dir/build.make CMakeFiles/cmTC_9a6cf.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9a6cf.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_9a6cf.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
+Run Build Command(s):/usr/bin/make cmTC_b6889/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6889.dir/build.make CMakeFiles/cmTC_b6889.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b6889.dir/src.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_b6889.dir/src.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
 cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
-Linking C executable cmTC_9a6cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6cf.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_9a6cf.dir/src.c.o  -o cmTC_9a6cf 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_b6889
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6889.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b6889.dir/src.c.o -o cmTC_b6889 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
 
-===== END =====
-
-Build output check failed:
-    Regex: 'unrecognized .*option'
-    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shift-negative-value’'
-Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -Wno-shift-negative-value'
-===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_38cd6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38cd6.dir/build.make CMakeFiles/cmTC_38cd6.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_38cd6.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG -fPIE   -Wno-shift-negative-value -o CMakeFiles/cmTC_38cd6.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-cc1: warning: unrecognized command line option ‘-Wno-shift-negative-value’
-Linking C executable cmTC_38cd6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38cd6.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_38cd6.dir/src.c.o  -o cmTC_38cd6 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-
-===== END =====
-
-Build output check failed:
-    Regex: 'unrecognized .*option'
-    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
-Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -Wno-implicit-fallthrough'
-===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_4c622/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c622.dir/build.make CMakeFiles/cmTC_4c622.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4c622.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-implicit-fallthrough -o CMakeFiles/cmTC_4c622.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
-Linking C executable cmTC_4c622
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c622.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_4c622.dir/src.c.o  -o cmTC_4c622 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
 Determining if the include file io.h exists failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_19b92/fast"
-/usr/bin/make -f CMakeFiles/cmTC_19b92.dir/build.make CMakeFiles/cmTC_19b92.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_19b92.dir/CheckIncludeFile.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_19b92.dir/CheckIncludeFile.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
+Run Build Command(s):/usr/bin/make cmTC_caefa/fast && /usr/bin/make  -f CMakeFiles/cmTC_caefa.dir/build.make CMakeFiles/cmTC_caefa.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_caefa.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_caefa.dir/CheckIncludeFile.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: 没有那个文件或目录
+    1 | #include <io.h>
+      |          ^~~~~~
 compilation terminated.
-CMakeFiles/cmTC_19b92.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_19b92.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_19b92.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_19b92/fast' failed
-make: *** [cmTC_19b92/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_caefa.dir/build.make:85：CMakeFiles/cmTC_caefa.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_caefa/fast] 错误 2
+
 
 
 Determining size of INT8 failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_781c4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_781c4.dir/build.make CMakeFiles/cmTC_781c4.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_781c4.dir/int8.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_781c4.dir/int8.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:17:22: error: ‘INT8’ undeclared here (not in a function)
- #define SIZE (sizeof(INT8))
-                      ^
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:19:12: note: in expansion of macro ‘SIZE’
-   ('0' + ((SIZE / 10000)%10)),
-            ^
-CMakeFiles/cmTC_781c4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_781c4.dir/int8.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_781c4.dir/int8.c.o] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_781c4/fast' failed
-make: *** [cmTC_781c4/fast] Error 2
+Run Build Command(s):/usr/bin/make cmTC_9c4da/fast && /usr/bin/make  -f CMakeFiles/cmTC_9c4da.dir/build.make CMakeFiles/cmTC_9c4da.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9c4da.dir/int8.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_9c4da.dir/int8.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:27:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+   27 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_9c4da.dir/build.make:85：CMakeFiles/cmTC_9c4da.dir/int8.c.o] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_9c4da/fast] 错误 2
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:
+
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int8.c:
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -423,14 +365,24 @@ make: *** [cmTC_781c4/fast] Error 2
 # define KEY '_','_','i','3','8','6'
 #elif defined(__x86_64)
 # define KEY '_','_','x','8','6','_','6','4'
-#elif defined(__ppc__)
-# define KEY '_','_','p','p','c','_','_'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
 #elif defined(__ppc64__)
 # define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
 #endif
 
 #define SIZE (sizeof(INT8))
-char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
   ('0' + ((SIZE / 10000)%10)),
   ('0' + ((SIZE / 1000)%10)),
   ('0' + ((SIZE / 100)%10)),
@@ -456,26 +408,24 @@ int main(int argc, char *argv[])
 
 
 Determining size of INT16 failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f21ce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f21ce.dir/build.make CMakeFiles/cmTC_f21ce.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f21ce.dir/int16.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f21ce.dir/int16.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:17:22: error: ‘INT16’ undeclared here (not in a function)
- #define SIZE (sizeof(INT16))
-                      ^
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:19:12: note: in expansion of macro ‘SIZE’
-   ('0' + ((SIZE / 10000)%10)),
-            ^
-CMakeFiles/cmTC_f21ce.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f21ce.dir/int16.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_f21ce.dir/int16.c.o] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f21ce/fast' failed
-make: *** [cmTC_f21ce/fast] Error 2
+Run Build Command(s):/usr/bin/make cmTC_8cf0c/fast && /usr/bin/make  -f CMakeFiles/cmTC_8cf0c.dir/build.make CMakeFiles/cmTC_8cf0c.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8cf0c.dir/int16.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8cf0c.dir/int16.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:27:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+   27 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_8cf0c.dir/build.make:85：CMakeFiles/cmTC_8cf0c.dir/int16.c.o] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_8cf0c/fast] 错误 2
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:
+
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int16.c:
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -486,14 +436,24 @@ make: *** [cmTC_f21ce/fast] Error 2
 # define KEY '_','_','i','3','8','6'
 #elif defined(__x86_64)
 # define KEY '_','_','x','8','6','_','6','4'
-#elif defined(__ppc__)
-# define KEY '_','_','p','p','c','_','_'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
 #elif defined(__ppc64__)
 # define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
 #endif
 
 #define SIZE (sizeof(INT16))
-char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
   ('0' + ((SIZE / 10000)%10)),
   ('0' + ((SIZE / 1000)%10)),
   ('0' + ((SIZE / 100)%10)),
@@ -519,26 +479,24 @@ int main(int argc, char *argv[])
 
 
 Determining size of INT32 failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_be0c2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_be0c2.dir/build.make CMakeFiles/cmTC_be0c2.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_be0c2.dir/int32.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_be0c2.dir/int32.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:17:22: error: ‘INT32’ undeclared here (not in a function)
- #define SIZE (sizeof(INT32))
-                      ^
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:19:12: note: in expansion of macro ‘SIZE’
-   ('0' + ((SIZE / 10000)%10)),
-            ^
-CMakeFiles/cmTC_be0c2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_be0c2.dir/int32.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_be0c2.dir/int32.c.o] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_be0c2/fast' failed
-make: *** [cmTC_be0c2/fast] Error 2
+Run Build Command(s):/usr/bin/make cmTC_41604/fast && /usr/bin/make  -f CMakeFiles/cmTC_41604.dir/build.make CMakeFiles/cmTC_41604.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_41604.dir/int32.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_41604.dir/int32.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:27:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+   27 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[1]: *** [CMakeFiles/cmTC_41604.dir/build.make:85：CMakeFiles/cmTC_41604.dir/int32.c.o] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_41604/fast] 错误 2
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:
+
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CheckTypeSize/int32.c:
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -549,14 +507,24 @@ make: *** [cmTC_be0c2/fast] Error 2
 # define KEY '_','_','i','3','8','6'
 #elif defined(__x86_64)
 # define KEY '_','_','x','8','6','_','6','4'
-#elif defined(__ppc__)
-# define KEY '_','_','p','p','c','_','_'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
 #elif defined(__ppc64__)
 # define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
 #endif
 
 #define SIZE (sizeof(INT32))
-char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
   ('0' + ((SIZE / 10000)%10)),
   ('0' + ((SIZE / 1000)%10)),
   ('0' + ((SIZE / 100)%10)),
@@ -582,299 +550,168 @@ int main(int argc, char *argv[])
 
 
 Determining if the function floor exists failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d6cd5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d6cd5.dir/build.make CMakeFiles/cmTC_d6cd5.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6cd5.dir/CheckFunctionExists.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d6cd5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
- char CHECK_FUNCTION_EXISTS();
- ^
-<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
- char CHECK_FUNCTION_EXISTS();
-      ^
-Linking C executable cmTC_d6cd5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6cd5.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d6cd5.dir/CheckFunctionExists.c.o  -o cmTC_d6cd5 
-CMakeFiles/cmTC_d6cd5.dir/CheckFunctionExists.c.o: In function `main':
-CheckFunctionExists.c:(.text.startup.main+0xe): undefined reference to `floor'
+Run Build Command(s):/usr/bin/make cmTC_e4e1e/fast && /usr/bin/make  -f CMakeFiles/cmTC_e4e1e.dir/build.make CMakeFiles/cmTC_e4e1e.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e4e1e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e4e1e.dir/CheckFunctionExists.c.o -c /home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_e4e1e
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4e1e.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e4e1e.dir/CheckFunctionExists.c.o -o cmTC_e4e1e 
+/usr/bin/ld: CMakeFiles/cmTC_e4e1e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `floor'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d6cd5.dir/build.make:97: recipe for target 'cmTC_d6cd5' failed
-make[1]: *** [cmTC_d6cd5] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d6cd5/fast' failed
-make: *** [cmTC_d6cd5/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_e4e1e.dir/build.make:106：cmTC_e4e1e] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_e4e1e/fast] 错误 2
+
 
 
 Determining if the function pow exists failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_72527/fast"
-/usr/bin/make -f CMakeFiles/cmTC_72527.dir/build.make CMakeFiles/cmTC_72527.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_72527.dir/CheckFunctionExists.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_72527.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
- char CHECK_FUNCTION_EXISTS();
- ^
-<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
- char CHECK_FUNCTION_EXISTS();
-      ^
-Linking C executable cmTC_72527
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72527.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_72527.dir/CheckFunctionExists.c.o  -o cmTC_72527 
-CMakeFiles/cmTC_72527.dir/CheckFunctionExists.c.o: In function `main':
-CheckFunctionExists.c:(.text.startup.main+0xe): undefined reference to `pow'
+Run Build Command(s):/usr/bin/make cmTC_e97c7/fast && /usr/bin/make  -f CMakeFiles/cmTC_e97c7.dir/build.make CMakeFiles/cmTC_e97c7.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e97c7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e97c7.dir/CheckFunctionExists.c.o -c /home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_e97c7
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e97c7.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e97c7.dir/CheckFunctionExists.c.o -o cmTC_e97c7 
+/usr/bin/ld: CMakeFiles/cmTC_e97c7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `pow'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_72527.dir/build.make:97: recipe for target 'cmTC_72527' failed
-make[1]: *** [cmTC_72527] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_72527/fast' failed
-make: *** [cmTC_72527/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_e97c7.dir/build.make:106：cmTC_e97c7] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_e97c7/fast] 错误 2
+
 
 
 Determining if the function sqrt exists failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f3a59/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f3a59.dir/build.make CMakeFiles/cmTC_f3a59.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f3a59.dir/CheckFunctionExists.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f3a59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
- char CHECK_FUNCTION_EXISTS();
- ^
-<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
- char CHECK_FUNCTION_EXISTS();
-      ^
-Linking C executable cmTC_f3a59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3a59.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_f3a59.dir/CheckFunctionExists.c.o  -o cmTC_f3a59 
-CMakeFiles/cmTC_f3a59.dir/CheckFunctionExists.c.o: In function `main':
-CheckFunctionExists.c:(.text.startup.main+0xe): undefined reference to `sqrt'
+Run Build Command(s):/usr/bin/make cmTC_0db0b/fast && /usr/bin/make  -f CMakeFiles/cmTC_0db0b.dir/build.make CMakeFiles/cmTC_0db0b.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0db0b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0db0b.dir/CheckFunctionExists.c.o -c /home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_0db0b
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0db0b.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0db0b.dir/CheckFunctionExists.c.o -o cmTC_0db0b 
+/usr/bin/ld: CMakeFiles/cmTC_0db0b.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sqrt'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_f3a59.dir/build.make:97: recipe for target 'cmTC_f3a59' failed
-make[1]: *** [cmTC_f3a59] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f3a59/fast' failed
-make: *** [cmTC_f3a59/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_0db0b.dir/build.make:106：cmTC_0db0b] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_0db0b/fast] 错误 2
+
 
 
 Determining if the function setmode exists failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b098/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b098.dir/build.make CMakeFiles/cmTC_9b098.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b098.dir/CheckFunctionExists.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9b098.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
- char CHECK_FUNCTION_EXISTS();
- ^
-Linking C executable cmTC_9b098
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b098.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_9b098.dir/CheckFunctionExists.c.o  -o cmTC_9b098 
-CMakeFiles/cmTC_9b098.dir/CheckFunctionExists.c.o: In function `main':
-CheckFunctionExists.c:(.text.startup.main+0xe): undefined reference to `setmode'
+Run Build Command(s):/usr/bin/make cmTC_b9fda/fast && /usr/bin/make  -f CMakeFiles/cmTC_b9fda.dir/build.make CMakeFiles/cmTC_b9fda.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b9fda.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b9fda.dir/CheckFunctionExists.c.o -c /home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9fda
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9fda.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b9fda.dir/CheckFunctionExists.c.o -o cmTC_b9fda 
+/usr/bin/ld: CMakeFiles/cmTC_b9fda.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `setmode'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9b098.dir/build.make:97: recipe for target 'cmTC_9b098' failed
-make[1]: *** [cmTC_9b098] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9b098/fast' failed
-make: *** [cmTC_9b098/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_b9fda.dir/build.make:106：cmTC_b9fda] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_b9fda/fast] 错误 2
 
 
-Determining if the system is big endian passed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_cd6ae/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cd6ae.dir/build.make CMakeFiles/cmTC_cd6ae.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cd6ae.dir/TestEndianess.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cd6ae.dir/TestEndianess.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_cd6ae
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd6ae.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cd6ae.dir/TestEndianess.c.o  -o cmTC_cd6ae 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-
-TestEndianess.c:
-/* A 16 bit integer is required. */
-typedef unsigned short cmakeint16;
-
-/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
-   On a big endian machine the characters will be exchanged pairwise. */
-const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
-
-/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
-   On a little endian machine the characters will be exchanged pairwise. */
-const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
-
-#ifdef __CLASSIC_C__
-int main(argc, argv) int argc; char *argv[];
-#else
-int main(int argc, char *argv[])
-#endif
-{
-  int require = 0;
-  require += info_little[argc];
-  require += info_big[argc];
-  (void)argv;
-  return require;
-}
-
-
-Build output check failed:
-    Regex: 'unrecognized .*option'
-    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-misleading-indentation’'
-Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -Wno-misleading-indentation'
-===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_26236/fast"
-/usr/bin/make -f CMakeFiles/cmTC_26236.dir/build.make CMakeFiles/cmTC_26236.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_26236.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTC_26236.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-cc1: warning: unrecognized command line option ‘-Wno-misleading-indentation’
-Linking C executable cmTC_26236
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26236.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_26236.dir/src.c.o  -o cmTC_26236 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-
-===== END =====
 
 Build output check failed:
     Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
     Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-missing-prototypes'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d2e8d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d2e8d.dir/build.make CMakeFiles/cmTC_d2e8d.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d2e8d.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_d2e8d.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_16d70/fast && /usr/bin/make  -f CMakeFiles/cmTC_16d70.dir/build.make CMakeFiles/cmTC_16d70.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_16d70.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_16d70.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-Linking CXX executable cmTC_d2e8d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2e8d.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d2e8d.dir/src.cxx.o  -o cmTC_d2e8d 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_16d70
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d70.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_16d70.dir/src.cxx.o -o cmTC_16d70 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
-Build output check failed:
-    Regex: 'unrecognized .*option'
-    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-pointer-compare’'
-Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -Wno-pointer-compare'
-===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7c114/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7c114.dir/build.make CMakeFiles/cmTC_7c114.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7c114.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -fPIE   -Wno-pointer-compare -o CMakeFiles/cmTC_7c114.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-cc1: warning: unrecognized command line option ‘-Wno-pointer-compare’
-Linking C executable cmTC_7c114
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c114.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7c114.dir/src.c.o  -o cmTC_7c114 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_5f605/fast && /usr/bin/make  -f CMakeFiles/cmTC_5f605.dir/build.make CMakeFiles/cmTC_5f605.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5f605.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5f605.dir/CheckFunctionExists.c.o -c /home/ash1/anaconda3/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f605
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f605.dir/link.txt --verbose=1
+/usr/bin/gcc -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5f605.dir/CheckFunctionExists.c.o -o cmTC_5f605 
+/usr/bin/ld: CMakeFiles/cmTC_5f605.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5f605.dir/build.make:106：cmTC_5f605] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_5f605/fast] 错误 2
 
-===== END =====
 
-Build output check failed:
-    Regex: 'unrecognized .*option'
-    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-absolute-value’'
-Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c'
-    check option: ' -Wno-absolute-value'
-===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_ef5fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef5fd.dir/build.make CMakeFiles/cmTC_ef5fd.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef5fd.dir/src.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_ef5fd.dir/src.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
-Linking C executable cmTC_ef5fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef5fd.dir/link.txt --verbose=1
-/usr/bin/gcc  -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_ef5fd.dir/src.c.o  -o cmTC_ef5fd 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-
-===== END =====
 
 Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-tautological-undefined-compare'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77869/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77869.dir/build.make CMakeFiles/cmTC_77869.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_77869.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_77869.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
+Run Build Command(s):/usr/bin/make cmTC_cd99b/fast && /usr/bin/make  -f CMakeFiles/cmTC_cd99b.dir/build.make CMakeFiles/cmTC_cd99b.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_cd99b.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_cd99b.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
 cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
-Linking CXX executable cmTC_77869
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77869.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_77869.dir/src.cxx.o  -o cmTC_77869 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_cd99b
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd99b.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cd99b.dir/src.cxx.o -o cmTC_cd99b 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
 
-===== END =====
-
-Build output check failed:
-    Regex: 'unrecognized .*option'
-    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’'
-Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
-    check option: ' -Wno-unused-const-variable'
-===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_63fca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_63fca.dir/build.make CMakeFiles/cmTC_63fca.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_63fca.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-unused-const-variable -std=c++11 -o CMakeFiles/cmTC_63fca.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’
-Linking CXX executable cmTC_63fca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63fca.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_63fca.dir/src.cxx.o  -o cmTC_63fca 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -882,24 +719,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-shorten-64-to-32'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_174f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_174f5.dir/build.make CMakeFiles/cmTC_174f5.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_174f5.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_174f5.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
+Run Build Command(s):/usr/bin/make cmTC_6dd8d/fast && /usr/bin/make  -f CMakeFiles/cmTC_6dd8d.dir/build.make CMakeFiles/cmTC_6dd8d.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_6dd8d.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_6dd8d.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
 cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
-Linking CXX executable cmTC_174f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_174f5.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_174f5.dir/src.cxx.o  -o cmTC_174f5 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_6dd8d
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dd8d.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_6dd8d.dir/src.cxx.o -o cmTC_6dd8d 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -907,24 +744,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-enum-compare-switch'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5c57/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d5c57.dir/build.make CMakeFiles/cmTC_d5c57.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d5c57.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG -fPIE   -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_d5c57.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
+Run Build Command(s):/usr/bin/make cmTC_299aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_299aa.dir/build.make CMakeFiles/cmTC_299aa.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_299aa.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_299aa.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
 cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
-Linking CXX executable cmTC_d5c57
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5c57.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d5c57.dir/src.cxx.o  -o cmTC_d5c57 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_299aa
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_299aa.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_299aa.dir/src.cxx.o -o cmTC_299aa 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+
 
 ===== END =====
 
@@ -932,66 +769,41 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
 Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-inconsistent-missing-override'
 ===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6a60b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6a60b.dir/build.make CMakeFiles/cmTC_6a60b.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6a60b.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_6a60b.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
+Run Build Command(s):/usr/bin/make cmTC_d33b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_d33b5.dir/build.make CMakeFiles/cmTC_d33b5.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d33b5.dir/src.cxx.o
+/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_d33b5.dir/src.cxx.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
 cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
-Linking CXX executable cmTC_6a60b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a60b.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_6a60b.dir/src.cxx.o  -o cmTC_6a60b 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_d33b5
+/home/ash1/anaconda3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d33b5.dir/link.txt --verbose=1
+/usr/bin/g++ -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d33b5.dir/src.cxx.o -o cmTC_d33b5 
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
 
-===== END =====
-
-Build output check failed:
-    Regex: 'unrecognized .*option'
-    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
-Compilation failed:
-    source file: '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
-    check option: ' -Wno-implicit-fallthrough'
-===== BUILD LOG =====
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_d7352/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d7352.dir/build.make CMakeFiles/cmTC_d7352.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d7352.dir/src.cxx.o
-/usr/bin/g++     -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG -fPIE   -Wno-implicit-fallthrough -std=c++11 -o CMakeFiles/cmTC_d7352.dir/src.cxx.o -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
- #pragma
- ^
-cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
-Linking CXX executable cmTC_d7352
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7352.dir/link.txt --verbose=1
-/usr/bin/g++   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_d7352.dir/src.cxx.o  -o cmTC_d7352 
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
 Determining if the include file sys/videoio.h exists failed with the following output:
-Change Dir: /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_366c4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_366c4.dir/build.make CMakeFiles/cmTC_366c4.dir/build
-make[1]: Entering directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_366c4.dir/CheckIncludeFile.c.o
-/usr/bin/gcc    -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_366c4.dir/CheckIncludeFile.c.o   -c /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+Run Build Command(s):/usr/bin/make cmTC_36dc9/fast && /usr/bin/make  -f CMakeFiles/cmTC_36dc9.dir/build.make CMakeFiles/cmTC_36dc9.dir/build
+make[1]: 进入目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_36dc9.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -O3 -ffast-math -ftree-vectorize -fno-lto -fPIC -fdata-sections -ffunction-sections -Wl,--gc-sections   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_36dc9.dir/CheckIncludeFile.c.o -c /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: 没有那个文件或目录
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
 compilation terminated.
-CMakeFiles/cmTC_366c4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_366c4.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_366c4.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory '/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_366c4/fast' failed
-make: *** [cmTC_366c4/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_36dc9.dir/build.make:85：CMakeFiles/cmTC_36dc9.dir/CheckIncludeFile.c.o] 错误 1
+make[1]: 离开目录“/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_36dc9/fast] 错误 2
+
 
 

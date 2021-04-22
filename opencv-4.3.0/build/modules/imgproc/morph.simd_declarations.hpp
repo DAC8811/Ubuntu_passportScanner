@@ -1,4 +1,4 @@
-#define CV_CPU_SIMD_FILENAME "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/modules/imgproc/src/morph.simd.hpp"
+#define CV_CPU_SIMD_FILENAME "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/modules/imgproc/src/morph.simd.hpp"
 #define CV_CPU_DISPATCH_MODE SSE4_1
 #include "opencv2/core/private/cv_cpu_include_simd_declarations.hpp"
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/opencv_highgui.dir/src/window.cpp.o"
-  "CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o"
-  "../../lib/libopencv_highgui.pdb"
   "../../lib/libopencv_highgui.a"
+  "../../lib/libopencv_highgui.pdb"
+  "CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o"
+  "CMakeFiles/opencv_highgui.dir/src/window.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

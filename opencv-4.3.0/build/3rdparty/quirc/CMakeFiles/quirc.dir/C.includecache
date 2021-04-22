@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -14,7 +14,7 @@ stdint.h
 quirc.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/quirc/src/decode.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/quirc/src/decode.c
 quirc_internal.h
 -
 string.h
@@ -22,7 +22,7 @@ string.h
 stdlib.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/quirc/src/quirc.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/quirc/src/quirc.c
 stdlib.h
 -
 string.h
@@ -30,7 +30,7 @@ string.h
 quirc_internal.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/quirc/src/version_db.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/quirc/src/version_db.c
 quirc_internal.h
 -
 

@@ -24,7 +24,7 @@ int closeConnect() {
     return 0;
 }
 
-void checkRevision(std::string workFolder, std::string deviceID) {
+bool checkRevision(std::string workFolder, std::string deviceID) {
     myDeviceID = deviceID;
     FILE *bfile = NULL;
     FILE *kfile = NULL;
@@ -38,10 +38,12 @@ void checkRevision(std::string workFolder, std::string deviceID) {
         mkdir((workFolder + "/fix/" + deviceID).c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
         pthread_t t;;
         pthread_create(&t, NULL, reviseThread, NULL);
+        return true;
     } else {
         myUsbHandler.setRevisionPara(bfile, kfile);
         fclose(bfile);
         fclose(kfile);
+        return false;
     }
 }
 

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/quirc.dir/src/decode.c.o"
-  "CMakeFiles/quirc.dir/src/version_db.c.o"
-  "CMakeFiles/quirc.dir/src/quirc.c.o"
-  "../lib/libquirc.pdb"
   "../lib/libquirc.a"
+  "../lib/libquirc.pdb"
+  "CMakeFiles/quirc.dir/src/decode.c.o"
+  "CMakeFiles/quirc.dir/src/quirc.c.o"
+  "CMakeFiles/quirc.dir/src/version_db.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

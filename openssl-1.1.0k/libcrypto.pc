@@ -1,4 +1,4 @@
-prefix=/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install
+prefix=/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -2,7 +2,7 @@
 SET(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_SYSTEM_PROCESSOR x86_64)
 
-set(CMAKE_SYSROOT1 /home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install)
+set(CMAKE_SYSROOT1 /home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install)
 
 # specify the cross compiler
 SET(CMAKE_C_COMPILER   gcc )

@@ -28,8 +28,8 @@ if(EXISTS ${SELF_DIR}/OpenJPEGTargets.cmake)
   include(${SELF_DIR}/OpenJPEGTargets.cmake)
 
   # We find a relative path from the PKG directory to header files.
-  set(PKG_DIR "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/lib/openjpeg-2.3")
-  set(INC_DIR "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/include/openjpeg-2.3")
+  set(PKG_DIR "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/lib/openjpeg-2.3")
+  set(INC_DIR "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/include/openjpeg-2.3")
   file(RELATIVE_PATH PKG_TO_INC_RPATH "${PKG_DIR}" "${INC_DIR}")
 
   get_filename_component(OPENJPEG_INCLUDE_DIRS "${SELF_DIR}/${PKG_TO_INC_RPATH}" ABSOLUTE)

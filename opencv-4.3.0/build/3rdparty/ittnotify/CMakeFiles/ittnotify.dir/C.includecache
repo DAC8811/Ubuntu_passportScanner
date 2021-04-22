@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -32,11 +32,11 @@ stdint.h
 wchar.h
 -
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/disable_warnings.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/disable_warnings.h
 ittnotify_config.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
 stddef.h
 -
 tchar.h
@@ -54,11 +54,11 @@ wchar.h
 pthread.h
 -
 ittnotify_types.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c
 ittnotify_config.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
 limits.h
 -
 dlfcn.h
@@ -74,11 +74,11 @@ stdarg.h
 string.h
 -
 ittnotify.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify.h
 legacy/ittnotify.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/legacy/ittnotify.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/legacy/ittnotify.h
 disable_warnings.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/disable_warnings.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/disable_warnings.h
 android/log.h
 -
 stdio.h
@@ -94,23 +94,23 @@ fcntl.h
 linux/limits.h
 -
 ittnotify_static.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
 ittnotify_static.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
 ittnotify_static.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
 ittnotify_static.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h
 ittnotify_config.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h
 
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/jitprofiling.c
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/jitprofiling.c
 ittnotify_config.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h
 windows.h
 -
 malloc.h
@@ -118,5 +118,5 @@ malloc.h
 stdlib.h
 -
 jitprofiling.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/jitprofiling.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/opencv-4.3.0/3rdparty/ittnotify/src/ittnotify/jitprofiling.h
 

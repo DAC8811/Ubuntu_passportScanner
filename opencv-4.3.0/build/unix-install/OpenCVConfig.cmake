@@ -96,6 +96,13 @@ endif()
 
 
 
+if(NOT TARGET ippicv)
+  add_library(ippicv STATIC IMPORTED)
+  set_target_properties(ippicv PROPERTIES
+    IMPORTED_LINK_INTERFACE_LIBRARIES ""
+    IMPORTED_LOCATION "${OpenCV_INSTALL_PATH}/lib/opencv4/3rdparty/libippicv.a"
+  )
+endif()
 
 
 
@@ -105,7 +112,7 @@ set(OpenCV_SHARED FALSE)
 # Enables mangled install paths, that help with side by side installs
 set(OpenCV_USE_MANGLED_PATHS FALSE)
 
-set(OpenCV_LIB_COMPONENTS opencv_core;opencv_gapi;opencv_calib3d;opencv_imgcodecs;opencv_video;opencv_flann;opencv_videoio;opencv_imgproc;opencv_objdetect;opencv_features2d;opencv_ml;opencv_highgui;opencv_photo;opencv_dnn;opencv_stitching)
+set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio)
 set(__OpenCV_INCLUDE_DIRS "${OpenCV_INSTALL_PATH}/include/opencv4")
 
 set(OpenCV_INCLUDE_DIRS "")

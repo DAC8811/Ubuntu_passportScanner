@@ -26,10 +26,10 @@ STATUS Ezusb::open(void) {
         LOGI("ezusbAPI init success.\n");
     }
 
-    extern int ScanReader_FD;
-    libusb_wrap_sys_device(NULL, (intptr_t) ScanReader_FD, &dev_handle);
+    //extern int ScanReader_FD;
+    //libusb_wrap_sys_device(NULL, (intptr_t) ScanReader_FD, &dev_handle);
 
-    //dev_handle = libusb_open_device_with_vid_pid(NULL, USB_VENDOR_ID, USB_PRODUCT_ID);  //open a usb device with VID&PID
+    dev_handle = libusb_open_device_with_vid_pid(NULL, USB_VENDOR_ID, USB_PRODUCT_ID);  //open a usb device with VID&PID
     if (dev_handle == NULL) {
         LOGE("ezusbAPI cannot open device\n");
         return STATUS_FAILED;

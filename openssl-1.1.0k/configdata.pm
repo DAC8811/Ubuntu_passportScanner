@@ -43,10 +43,10 @@ our %config = (
   openssl_sys_defines => [  ],
   openssl_thread_defines => [ "OPENSSL_THREADS" ],
   openssldir => "",
-  options => "--prefix=/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install enable-shared -fPIC -ffast-math -ftree-vectorize -flto -fdata-sections -ffunction-sections -Wl,--gc-sections no-asan no-crypto-mdebug no-crypto-mdebug-backtrace no-ec_nistp_64_gcc_128 no-egd no-fuzz-afl no-fuzz-libfuzzer no-heartbeats no-md2 no-msan no-rc5 no-sctp no-ssl-trace no-ssl3 no-ssl3-method no-ubsan no-unit-test no-weak-ssl-ciphers no-zlib no-zlib-dynamic",
+  options => "--prefix=/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install enable-shared -fPIC -ffast-math -ftree-vectorize -flto -fdata-sections -ffunction-sections -Wl,--gc-sections no-asan no-crypto-mdebug no-crypto-mdebug-backtrace no-ec_nistp_64_gcc_128 no-egd no-fuzz-afl no-fuzz-libfuzzer no-heartbeats no-md2 no-msan no-rc5 no-sctp no-ssl-trace no-ssl3 no-ssl3-method no-ubsan no-unit-test no-weak-ssl-ciphers no-zlib no-zlib-dynamic",
   perl => "/usr/bin/perl",
-  perlargv => [ "--prefix=/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install", "linux-x86_64", "shared", "-fPIC", "-ffast-math", "-ftree-vectorize", "-flto", "-fdata-sections", "-ffunction-sections", "-Wl,--gc-sections" ],
-  prefix => "/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu_edition/install",
+  perlargv => [ "--prefix=/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install", "linux-x86_64", "shared", "-fPIC", "-ffast-math", "-ftree-vectorize", "-flto", "-fdata-sections", "-ffunction-sections", "-Wl,--gc-sections" ],
+  prefix => "/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install",
   processor => "",
   rc4_int => "unsigned int",
   sdirs => [ "objects", "md4", "md5", "sha", "mdc2", "hmac", "ripemd", "whrlpool", "poly1305", "blake2", "des", "aes", "rc2", "rc4", "idea", "bf", "cast", "camellia", "seed", "chacha", "modes", "bn", "ec", "rsa", "dsa", "dh", "dso", "engine", "buffer", "bio", "stack", "lhash", "rand", "err", "evp", "asn1", "pem", "x509", "x509v3", "conf", "txt_db", "pkcs7", "pkcs12", "comp", "ocsp", "ui", "cms", "ts", "srp", "cmac", "ct", "async", "kdf" ],
@@ -888,11 +888,6 @@ our %unified_info = (
                     "libssl",
                 ],
             "test/buildtest_ocsp" =>
-                [
-                    "libcrypto",
-                    "libssl",
-                ],
-            "test/buildtest_opensslconf" =>
                 [
                     "libcrypto",
                     "libssl",
@@ -2338,11 +2333,6 @@ our %unified_info = (
                 [
                     "test/generate_buildtest.pl",
                     "ocsp",
-                ],
-            "test/buildtest_opensslconf.c" =>
-                [
-                    "test/generate_buildtest.pl",
-                    "opensslconf",
                 ],
             "test/buildtest_opensslv.c" =>
                 [
@@ -7193,10 +7183,6 @@ our %unified_info = (
                 [
                     "include",
                 ],
-            "test/buildtest_opensslconf.o" =>
-                [
-                    "include",
-                ],
             "test/buildtest_opensslv.o" =>
                 [
                     "include",
@@ -7570,8 +7556,8 @@ our %unified_info = (
                 ],
             "test/testutil.o" =>
                 [
-                    "test",
                     "crypto/ec",
+                    "test",
                     "crypto/include",
                     "include",
                     ".",
@@ -7728,7 +7714,6 @@ our %unified_info = (
             "test/buildtest_obj_mac",
             "test/buildtest_objects",
             "test/buildtest_ocsp",
-            "test/buildtest_opensslconf",
             "test/buildtest_opensslv",
             "test/buildtest_ossl_typ",
             "test/buildtest_pem",
@@ -12023,14 +12008,6 @@ our %unified_info = (
             "test/buildtest_ocsp.o" =>
                 [
                     "test/buildtest_ocsp.c",
-                ],
-            "test/buildtest_opensslconf" =>
-                [
-                    "test/buildtest_opensslconf.o",
-                ],
-            "test/buildtest_opensslconf.o" =>
-                [
-                    "test/buildtest_opensslconf.c",
                 ],
             "test/buildtest_opensslv" =>
                 [

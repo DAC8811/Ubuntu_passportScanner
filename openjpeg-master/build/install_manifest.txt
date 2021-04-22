@@ -1,8 +1,8 @@
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/lib/openjpeg-2.3/OpenJPEGTargets.cmake
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/lib/openjpeg-2.3/OpenJPEGTargets-release.cmake
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/lib/openjpeg-2.3/OpenJPEGConfig.cmake
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/lib/pkgconfig/libopenjp2.pc
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/include/openjpeg-2.3/opj_config.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/lib/libopenjp2.a
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/include/openjpeg-2.3/openjpeg.h
-/home/ashone/lab_pro/Ubuntu_16_passportReader/ubuntu/install/include/openjpeg-2.3/opj_stdint.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/lib/openjpeg-2.3/OpenJPEGTargets.cmake
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/lib/openjpeg-2.3/OpenJPEGTargets-release.cmake
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/lib/openjpeg-2.3/OpenJPEGConfig.cmake
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/lib/pkgconfig/libopenjp2.pc
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/include/openjpeg-2.3/opj_config.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/lib/libopenjp2.a
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/include/openjpeg-2.3/openjpeg.h
+/home/ash1/lab_pro/Ubuntu_16_passportScanner/ubuntu/install/include/openjpeg-2.3/opj_stdint.h

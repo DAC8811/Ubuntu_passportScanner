@@ -3,6 +3,7 @@
 #include <chrono>
 
 
+
 int sem_timedwait_millsecs(sem_t *sem, long msecs);
 
 UsbHandler::UsbHandler() {
@@ -150,18 +151,49 @@ void *UsbHandler::USBDataListener(void *thisPointer) {
 }
 
 int sem_timedwait_millsecs(sem_t *sem, long msecs) {
-    struct timespec ts;
-    clock_gettime(CLOCK_REALTIME, &ts);
-    long secs = msecs / 1000;
-    msecs = msecs % 1000;
+    //原本这里使用的是sem_timedwait函数等待接收线程接收完数据，但是使用显示加载的方式加载库时该函数会失效，所以改为sem_trywait+usleep实现
+    // struct timespec ts;
+    // clock_gettime(CLOCK_REALTIME, &ts);
+    // long secs = msecs / 1000;
+    // msecs = msecs % 1000;
 
-    long add = 0;
-    msecs = msecs * 1000 * 1000 + ts.tv_nsec;
-    add = msecs / (1000 * 1000 * 1000);
-    ts.tv_sec += (add + secs);
-    ts.tv_nsec = msecs % (1000 * 1000 * 1000);
+    // long add = 0;
+    // msecs = msecs * 1000 * 1000 + ts.tv_nsec;
+    // add = msecs / (1000 * 1000 * 1000);
+    // ts.tv_sec += (add + secs);
+    // ts.tv_nsec = msecs % (1000 * 1000 * 1000);
 
-    return sem_timedwait(sem, &ts);
+    // return sem_timedwait(sem, &ts);
+    //-----------------------------------------------------------------------------------------------------------------
+    const long waitTimeUs = msecs * 1000;
+    const long maxTimeWait = 10000;
+    long timeWait = 1; // 睡眠时间，默认为1微秒
+    long delayUs = 0; // 剩余需要延时睡眠时间
+    uint64_t elapsedUs = 0; // 已计数的时间，单位微秒
+
+    int ret = 0;
+    do
+    {
+        // 如果信号量大于0，则减少信号量并立马返回true
+        if( sem_trywait(sem) == 0 )
+            return true;
+        // 系统信号则立马返回false
+        if( errno != EAGAIN )
+            return false;
+        delayUs = waitTimeUs - elapsedUs;
+        // 睡眠时间取最小的值
+        timeWait = std::min( delayUs, timeWait );
+        ret = usleep( timeWait );
+        if( ret != 0 )
+            return false;
+        elapsedUs += timeWait;
+        // 睡眠延时时间双倍自增
+        timeWait *= 2;
+        // 睡眠延时时间不能超过最大值
+        timeWait = std::min( timeWait, maxTimeWait );
+    } while( elapsedUs <= waitTimeUs ); // 如果当前循环的时间超过预设延时时间则退出循环
+    // 超时退出，则返回false
+    return false;
 }
 
 resultdata UsbHandler::acquireImage(int timeout) {

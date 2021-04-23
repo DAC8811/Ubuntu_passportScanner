@@ -533,14 +533,15 @@ string getDeviceID() {
     return string(id);
 }
 
-const char *getSFZImageData() {
+string getSFZImageData() {
     if (docType != 0)
         return NULL;
     else {
-        static char sfzImage[1024];
-        for (int i = 0; i < 1024; i++) {
-            sfzImage[i] = SFZImage[i];
-        }
-        return sfzImage;
+        // static char sfzImage[1024];
+        // for (int i = 0; i < 1024; i++) {
+        //     sfzImage[i] = SFZImage[i];
+        // }
+        // return sfzImage;
+        return SFZImage;
     }
 }

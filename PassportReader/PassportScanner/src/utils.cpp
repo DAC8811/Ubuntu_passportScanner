@@ -7,6 +7,7 @@
 #include "utils.h"
 #include "internalLogging.h"
 #include "getData.h"
+#include "WltRS.h"
 
 using namespace std;
 
@@ -44,15 +45,32 @@ string getSFZImageURI(const string& workingFolder) {
     DIR * dir;
     if((dir = opendir(imgPath.c_str())) == NULL)
         mkdir(imgPath.c_str(),S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
-    char var[] ={5,  0,  1,  0,  91,  3,  51,  1,  90,  -77,  30,  0};
-    string wlt = getSFZImageData();
-    int ret = 1;
-    //int ret = IDCReaderSDK.wltGetBMP(wlt, var);
-    if (ret == 1) {
-        LOGI("身份证照片解码成功");
-        return imgPath + "/zp.bmp";
-    } else {
-        LOGE("身份证照片解码失败，错误代码：" + ret);
+    // char var[] ={5,  0,  1,  0,  91,  3,  51,  1,  90,  -77,  30,  0};
+    string SFZImage = getSFZImageData();
+    // int ret = 1;
+    // //int ret = IDCReaderSDK.wltGetBMP(wlt, var);
+    int inBufsize = 1024;
+    int iPhotoDataLen = 38862;
+    char arrPhotoData[iPhotoDataLen];
+    char test[1024];
+    int iRet = WltRs::getBmp((char *)SFZImage.c_str(), 1024, arrPhotoData, iPhotoDataLen);
+    //int len = getBmp((char*)SFZImage.c_str(),inBufsize,test,outBufsize,soPath.c_str());
+    //printf("\niRet == %d\n",iRet);
+    if(iRet > 0){
+            string imagePath = imgPath + "/zp.bmp";
+            FILE* fp_photo = fopen(imagePath.c_str(),"wb+");
+            if(fp_photo == NULL)
+            {
+                LOGE(" write Photo error");
+                return "";
+            }
+            fwrite(arrPhotoData, 1, iPhotoDataLen, fp_photo);
+            fclose(fp_photo);
+            LOGI("身份证照片解码成功");
+            return imgPath + "/zp.bmp";
+    }
+    else{
+        LOGE("身份证照片解码失败，错误代码：" + iRet);
     }
     return "";
 }

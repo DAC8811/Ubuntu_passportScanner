@@ -87,6 +87,6 @@ EXPORT_FUN string getEChipDG11();
 // 返回值   :1024字节数据
 //
 /******************************************************/
-EXPORT_FUN const char* getSFZImageData();
+EXPORT_FUN string getSFZImageData();
 EXPORT_FUN int cropFace(string srcImgPath, string faceImgPath, int cardType);
 #endif //PASSPORTREADER_GETDATA_H

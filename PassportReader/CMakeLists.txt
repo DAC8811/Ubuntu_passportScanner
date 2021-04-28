@@ -34,9 +34,9 @@ else ()
     add_library(glog STATIC IMPORTED)
     set_target_properties(glog PROPERTIES
         IMPORTED_LOCATION "${CMAKE_FIND_ROOT_PATH}/lib/libglog.a")
-    add_library(libwlt SHARED IMPORTED)
-    set_target_properties(libwlt PROPERTIES
-        IMPORTED_LOCATION "${CMAKE_FIND_ROOT_PATH}/lib/libwlt.so")
+    # add_library(libwlt SHARED IMPORTED)
+    # set_target_properties(libwlt PROPERTIES
+    #     IMPORTED_LOCATION "${CMAKE_FIND_ROOT_PATH}/lib/libwlt.so")
     include_directories(${OpenCV_INCLUDE_DIRS} ${LIBUSB_INCLUDE_DIR} ${GLOG_INCLUDE_DIR} ${OPENSSL_INCLUDE_DIR} ${api_header_files})
 
     if (CMAKE_SYSTEM_NAME STREQUAL "Windows" )

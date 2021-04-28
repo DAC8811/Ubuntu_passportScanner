@@ -12,7 +12,7 @@ add_library(passportScanner SHARED ${source_files})
 
 target_include_directories(passportScanner BEFORE PRIVATE include include/json ../PassportReaderAPI/include)
 
-target_link_libraries(passportScanner getData libImageProcess libwlt)
+target_link_libraries(passportScanner getData libImageProcess ${CMAKE_FIND_ROOT_PATH}/lib/libwlt.so)
 
 install(TARGETS passportScanner
     RUNTIME DESTINATION bin

@@ -145,7 +145,7 @@ std::string scanAndReadCardInfo(int timeout,int paramInt, string paramString){
     }
 
     string jsonInfo = getJson();
-    LOG(INFO) << "jsonInfo:" + jsonInfo;
+    //LOG(INFO) << "jsonInfo:" + jsonInfo;
 
     Json::Reader reader;
     Json::Value resjson;
@@ -161,11 +161,14 @@ std::string scanAndReadCardInfo(int timeout,int paramInt, string paramString){
         resjson["msg"] = "RET_SUCCESS";
         setWorkingStatus(0);
         beepBuzzer(2);
+        resjson["PicBase64"] = getBase64Code(resjson["PicPath"].asString());
         return writer.write(resjson);
     } else if (cardType == CardType::PASSPORT || cardType == CardType::PASSPORT_WITHOUT_CHIP) {
         cropFace(workFolder + WHITE_IMAGE_PATH, workFolder + CROP_HEAD_IMAGE_PATH, cardType);
         setWorkingStatus(0);
         beepBuzzer(2);
+        LOG(INFO) << "here" << endl;
+        resjson["PicBase64"] = getBase64Code(resjson["PicPath"].asString());
         return writer.write(resjson);
     }
     if (cardType == CardType::UNKNOWN) {
@@ -179,6 +182,7 @@ std::string scanAndReadCardInfo(int timeout,int paramInt, string paramString){
     resjson["msg"] = "RET_SUCCESS";
     setWorkingStatus(0);
     beepBuzzer(2);
+    resjson["PicBase64"] = getBase64Code(resjson["PicPath"].asString());
     return writer.write(resjson);
 }
 

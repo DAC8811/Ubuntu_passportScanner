@@ -89,6 +89,13 @@ const std::string NationThreeNationCodes[] = {
             "ESH", "YEM", "ZMB", "ZWE", "UNO", "UNA", "BES", "BLM", "CUW", "MAF", "NTZ", "SSD", "SXM"
     };
 
+const std::string base64_chars =
+             "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+             "abcdefghijklmnopqrstuvwxyz"
+             "0123456789+/";
+
+const int RECV_SIZE = 1000000;
+
 void removeFile(const std::string& filePath);
 
 bool removeDir(const std::string& szFileDir);
@@ -96,5 +103,10 @@ bool removeDir(const std::string& szFileDir);
 std::string getSFZImageURI(const std::string& workingFolder);
 
 std::string getTwoNationCodes(std::string str);
+
+std::string base64Encode(char const* bytes_to_encode, int in_len) ;
+std::string base64Decode(std::string & encoded_string) ;
+
+std::string getBase64Code(const std::string& picPath);
 
 #endif
